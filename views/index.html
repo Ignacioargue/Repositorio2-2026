@@ -3,54 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>enviando un archivo al navegador </title>
+    <title>Ecommerce - Como Amazon</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<header>LOGOTIPO 
-    BARRA DE NAVEGACION
-    BARRA DE BUSQUEDA
-    ENLACES A REDES SOCIALES
-</header>
-<nav> <ul>
-    <li>
-        <a href="#"> inicio</a>
-        <a href="#"> quienes somos</a>
-        <a href="#"> servicio</a>
-        <a href="#"> contacto</a>
-    </li>
-</ul></nav>
 <body>
-    <h1>Hola Mundo</h1>
-    <h2>Hola Mundo</h2>
-    <section>
-        <header>
-            <h2> PRODUCTO DESTACADO</h2>
-        </header>
-        DESCRIPCION DEL PRODUCTO
-        <footer>
-            <a href="#" CONTINUAR LEYENDO></a>
-        </footer>
-    </section>
-    <break></break>
-    <p>ESTOY INICIANDO EN JS</p>
-    <strong>HOLA MUNDILLO</strong>
-   <em>HOLA MUNDILLO</em>
-   <ol>
-    <li>Tomar una ducha</li>
-    <li>Vestirse</li>
-    <li>tomar un cafe</li>
-   </ol>
-   <ul>
-    <li>Tomar una ducha</li>
-    <li>Vestirse</li>
-    <li>tomar un cafe</li>
-   </ul>
-   </body>
-   <footer>
-    <p>TODOS LOS DERECHOS RESERVADOS</p>
-    <nav><ul>
-        <a href="#" > TERMINOS Y CONFICIONES</a>
-        <a href="#" > MAPA DE SITIO</a>
-        <a href="#" > INFORMACION LEGAL</a>
-    </ul></nav>
-   </footer>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>MiEcommerce</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos...">
+                <button>Buscar</button>
+            </div>
+            <nav>
+                <a href="#">Cuenta</a>
+                <a href="#">Carrito (0)</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <a href="#">Electrónicos</a>
+        <a href="#">Ropa</a>
+        <a href="#">Libros</a>
+        <a href="#">Hogar</a>
+        <a href="#">Deportes</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Productos Destacados</h2>
+        </section>
+
+        <section class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>$19.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>$29.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>$39.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 4">
+                <h3>Producto 4</h3>
+                <p>$49.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MiEcommerce. Todos los derechos reservados.</p>
+    </footer>
+    <link rel ="stylesheet" href="/views/style.css">
+</body>
 </html>
